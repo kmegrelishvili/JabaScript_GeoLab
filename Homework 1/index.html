@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+    <h1> Gym Membership Form </h1>
+    <link rel="stylesheet" href="./CSS/index.css">
+
+</head>
+
+<body>
+    <div>
+        <img src="img/image04.jpeg" alt="Gym photo">
+        <p> Want to become a member of our Gym? Then start by filling pit our form to complete the registartion. We
+            will
+            contact you shortly.</p>
+    </div>
+
+    <form class="form-main">
+
+
+        <div class="name">
+            <label for="name"> Name </label><br>
+            <input type="text" id="name" placeholder="Fisrt"><br>
+            <input type="text" id="surname" placeholder="Last"><br>
+        </div>
+
+
+        <div class="gender">
+            <label id="gendermain" for="gender"> Gender </label><br />
+            <input type="radio" id="male" name="gendermale" value="male">
+            <label for="male"> Male</label>
+            <input type="radio" id="female" name="genderfemale" value="male">
+            <label for="female"> Female</label>
+        </div>
+
+
+        <div class="usermeasurements">
+            <label for="currentweight">Your Current Weight (KG) </label><br>
+            <input type="number" id="currentweight" name="currentweight"><br>
+            <label for="Desiredweight">Your Desired Weight (KG) </label><br>
+            <input type="number" id="Desiredweight" name="Desiredweight"><br>
+            <label for="height">Your Height (cm) </label><br>
+            <input type="number" id="height" name="height"><br>
+        </div>
+
+        <div class="useraddress">
+            <label for="Adress"> Home Address </label><br>
+            <input type="text" id="Street" name="street" placeholder="Street Adress"> <br>
+            <input type="text" id="City" name="city" placeholder="City"><br>
+
+            <select id="country" name="country">
+                <option id="placeholder" value="" disabled selected> Country</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Georgia">Georgia</option>
+            </select>
+        </div>
+
+
+        <div class="email">
+            <label for="email"> Email </label><br>
+            <input type="email" id="email" name="email"> <br>
+        </div>
+
+        <div class="phone">
+            <label for="phone"> Phone </label><br>
+            <input type="phone" id="phone" name="phone"> <br>
+        </div>
+
+
+
+        <div class="gymquestion">
+            <label id="gymquestiontitle" for="q1"> Have you ever been in a Gym before? </label><br>
+            <input type="radio" id="q1yes" name="q1yes" value="q1yes">
+            <label for="q1yes"> Yes </label>
+            <input type="radio" id="q1no" name="q1no" value="q1no">
+            <label for="q1no"> No </label><br>
+        </div>
+
+
+        <div class="Membership">
+            <label for="Mtype" id="Membershiptitle"> Membership type </label><br>
+            <input type="checkbox" id="Regular" name="Regular" value="Regular">
+            <label for="Regular"> Regular</label>
+            <input type="checkbox" id="Pro" name="Pro" value="Pro">
+            <label for="Pro"> Pro</label>
+            <input type="checkbox" id="VIP" name="VIP" value="VIP">
+            <label for="VIP"> VIP</label><br>
+        </div>
+
+
+        <div class="addcomment">
+            <label for="addcomment"> Add Comment</label><br>
+            <input type="text" id="addcomment" name="addcomment"><br>
+        </div>
+
+
+        <div class="button">
+            <input type="submit" id="send" value="Apply" </form>
+        </div>
+    </form>
+</body>

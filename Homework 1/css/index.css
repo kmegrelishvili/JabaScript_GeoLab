@@ -1,0 +1,154 @@
+p {
+    width: 100%;
+    font-size: 16px;
+    color: rgba(27, 25, 25, 0.774);
+    margin:0px 0px 20px 20px;
+}
+
+h1 {
+	color:black;
+	font-size: 28px;
+    margin:0px 0px 20px 20px;
+}
+
+img {
+    margin:0px 0px 20px 20px;
+    width:450px;
+    height:180px
+}
+
+.form-main, .name,  .gender, .useraddress, .usermeasurements, .email, .phone, .gymquestion, .Membership, .addcomment, .button label {
+    font-size:16px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.name input {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+}
+
+.name label {
+    margin:0px 0px 5px 20px;
+}
+
+
+
+.gender label {
+    margin:0px 0px 0px 0px;
+}
+
+#gendermain {
+    margin:0px 0px 5px 20px;
+}
+
+.gender input {
+    margin:0px 0px 0px 20px;
+
+}
+
+.usermeasurements input {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+}
+.usermeasurements label {
+    margin:0px 0px 5px 20px;
+}
+
+
+
+.useraddress label  {
+    margin:0px 0px 5px 20px;
+}
+
+.useraddress input  {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+}
+
+select {
+    width: 90%;
+    height: 30px;
+    margin:0px 0px 0px 20px;
+    color: grey;
+
+}
+
+.email label  {
+    margin:0px 0px 5px 20px;
+}
+.email input {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+}
+
+
+.phone label  {
+    margin:0px 0px 5px 20px;
+}
+.phone input {
+    width: 90%;
+    height: 20px;
+    margin:0px 0px 5px 20px;
+}
+
+
+
+.gymquestion label {
+    margin:0px 0px 0px 0px;
+}
+#gymquestiontitle{
+    margin:0px 0px 5px 20px;
+}
+.gymquestion input {
+    margin:0px 0px 5px 20px;
+}
+
+
+
+.Membership label  {
+    margin:0px 0px 0px 0px;
+
+}
+#Membershiptitle{
+    margin:0px 0px 5px 20px;
+}
+
+.Membership input {
+    margin:0px 0px 5px 20px;
+}
+
+
+.addcomment input {
+    width: 80%;
+    height: 50px;
+    margin:0px 0px 0px 20px;
+}
+
+.addcomment label {
+
+    margin:0px 0px 5px 20px;
+
+}
+
+.button input {
+    width: 150px;
+    height: 30px;
+    color: cornsilk;
+    background-color: rgb(26, 43, 82);
+    margin:0px 0px 20px 20px;
+
+}
+
+.button label {
+    width: 40%;
+    height: 30px;
+    margin:0px 0px 20px 20px;
+}
+
+
+
