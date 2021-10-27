@@ -1,0 +1,76 @@
+.whoweare {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    width:90%;
+    height: 800px;
+    overflow:hidden;
+    height:auto;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 5%;  
+    justify-content: center;
+  align-content: center
+}
+
+.whoweare {
+    align-items: center;
+    text-align: center;
+    
+}
+.ourteam img {
+    padding-top: 10px;
+    display: flex;
+    grid-column: span 2;
+    width: 90%;
+    height:auto;
+    cursor: pointer;
+}
+
+.ourteam img:hover {
+    transform: scale(1.1); 
+}
+.ourteam h4 {
+display: inline-block;
+display:block;
+font-family: 'Rufina', serif;
+font-size: 32px;
+font-weight: bold;
+color: rgb(148, 63, 32);
+letter-spacing: .1px;
+margin-bottom: 1%;
+text-transform:capitalize
+    
+}
+
+.ourstory {
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+}
+
+.ourstory h4 {
+display: inline-block;
+display:block;
+font-family: 'Rufina', serif;
+font-size: 32px;
+font-weight: bold;
+color: rgb(64, 64, 64);
+letter-spacing: .1px;
+text-transform:capitalize;
+margin-bottom: 2%;
+
+}
+.witem1, .witem2 {
+display: inline-block;
+text-align: left;
+}
+
+.ourstory p{
+    background: linear-gradient(to left, white 50%, lightblue 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out
+}
+.ourstory p:hover{
+    background-position: left;
+}

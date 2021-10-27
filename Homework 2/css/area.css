@@ -1,0 +1,125 @@
+
+
+.banner {  
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center; 
+    height: 750px;
+    background: rgb(64, 64, 64);
+    text-align: center;
+    background-image: url(../img/SoftCo-CFO-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:pointer;
+    align-items: center;
+    justify-content: center;
+} 
+
+.banner:hover {
+    opacity: 1.0;
+  }
+
+.left-Button,
+.right-Button {
+    width: 25px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 220px; 
+}
+
+.left-Button  {
+    left: 50px;
+    top: 111px;
+    position: absolute;
+    content: url(../img/leftarrows.png);
+
+}
+
+.right-Button {
+    position: absolute;
+    right: 50px;
+    top: 111px;
+    content: url(../img/rightarrows.png);
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height:150px;
+}
+.text {
+    position: absolute;
+    float:right;
+    font-size: 19px;
+    color: white;
+    font-family: 'Rufina', serif;
+    top: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1,5;
+    text-align: center;
+    word-spacing: 19px;
+}
+
+
+.readmore {
+position: absolute;
+float: right;
+margin-top: 20%;
+margin-left: 40%;
+padding: 11px 30px 12px;
+border: 1px solid rgb(223, 223, 219);
+outline: 3px solid  rgb(64, 64, 64);
+background:  rgb(64, 64, 64);
+color: rgb(223, 223, 219);
+margin-bottom: 50px;
+font-family: 'Rufina', serif;
+font-size: 13px;
+font-weight: bold;
+letter-spacing: .1px;
+text-transform: uppercase;
+animation-name: wiggle;
+animation-duration: 6s;
+animation-delay: 2s;
+}
+
+
+.readmore a{
+text-decoration: none;
+color: rgb(223, 223, 219);
+}
+
+@keyframes wiggle {
+    from {background:  rgb(64, 64, 64);}
+    to{background:  rgb(7, 7, 7)}
+    0%, 7% {
+        transform: rotateZ(0);
+      }
+      15% {
+        transform: rotateZ(-15deg);
+      }
+      20% {
+        transform: rotateZ(10deg);
+      }
+      25% {
+        transform: rotateZ(-10deg);
+      }
+      30% {
+        transform: rotateZ(6deg);
+      }
+      35% {
+        transform: rotateZ(-4deg);
+      }
+      40%, 100% {
+        transform: rotateZ(0);
+      }
+    }
+  
+
+

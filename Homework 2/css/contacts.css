@@ -1,0 +1,84 @@
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color:rgb(64, 64, 64);
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:rgb(64, 64, 64);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgb(35, 44, 48);
+  }
+  
+  .container {
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(168, 216, 234);
+    padding: 20px;
+  }
+
+  .contacts{
+    font-family: 'Rufina', serif;
+    font-weight: bold;
+    letter-spacing: .1px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(64, 64, 64)
+    }
+
+    .address-container {
+      display:grid;
+      grid-template-columns: 250px 250px;
+      grid-gap:2000px;
+      grid-column-gap:500px;
+      padding-top: 20px;
+      align-items: center;
+      padding-left: 25%;
+      padding-right: 25%;
+    
+    }
+
+    .address-container img {
+      width:60px;
+      height:50px;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+
+    .grid-location{
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(64, 64, 64)
+    }
+
+    .grid-email{
+      justify-content: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(64, 64, 64)
+          }
+
+    .address-container img:hover {
+            transform: scale(1.5); 
+          }
