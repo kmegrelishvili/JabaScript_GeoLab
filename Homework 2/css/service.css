@@ -73,3 +73,16 @@ text-transform:capitalize
     z-index: -1;
     transition: transform .3s ease;
   }
+
+  @media screen and (max-width: 1430px) {
+    .portfolio{
+      display: grid;
+      grid-template-columns: auto;
+      grid-column-gap: 50px;
+      padding-top: 2%;
+      width:100%;
+      text-align: center;
+      margin-left: auto;
+    }  
+
+}

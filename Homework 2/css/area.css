@@ -3,18 +3,17 @@
 .banner {  
     width: 100%;
     display: flex;
-    position: relative;
+    position: relative; 
     align-items: center;
     justify-content: center; 
     height: 750px;
-    background: rgb(64, 64, 64);
+    /* background: rgb(64, 64, 64); */
     text-align: center;
     background-image: url(../img/SoftCo-CFO-02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     cursor:pointer;
-    align-items: center;
-    justify-content: center;
+   
 } 
 
 .banner:hover {
@@ -46,51 +45,52 @@
 }
 
 .wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    height:150px;
+  display: flex;
+  flex-direction :column;
+ 
+  height:200px;
+  width:20%;
+  margin-left: 80%;
+  justify-content: space-between;
 }
 .text {
-    position: absolute;
-    float:right;
-    font-size: 19px;
+    flex:2;
+    font-size: 29px;
     color: white;
-    font-family: 'Rufina', serif;
-    top: 60%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30%;
-    font-size: 40px;
+    align-items: center;  
     font-weight: 600;
     line-height: 1,5;
     text-align: center;
     word-spacing: 19px;
+    
 }
 
 
 .readmore {
-position: absolute;
-float: right;
-margin-top: 20%;
-margin-left: 40%;
-padding: 11px 30px 12px;
+flex:1;
+align-self: center;
+width: 30%;
+display: flex;
+/* padding: 12px 12px; */
 border: 1px solid rgb(223, 223, 219);
 outline: 3px solid  rgb(64, 64, 64);
 background:  rgb(64, 64, 64);
 color: rgb(223, 223, 219);
-margin-bottom: 50px;
 font-family: 'Rufina', serif;
 font-size: 13px;
 font-weight: bold;
 letter-spacing: .1px;
+text-align: center;
 text-transform: uppercase;
 animation-name: wiggle;
 animation-duration: 6s;
-animation-delay: 2s;
+animation-delay: 2s; 
 }
 
 
 .readmore a{
+padding: 26px 15px 26px 15px;
+
 text-decoration: none;
 color: rgb(223, 223, 219);
 }
@@ -122,4 +122,71 @@ color: rgb(223, 223, 219);
     }
   
 
+    @media screen and (max-width: 1430px) {
+      
+      .banner{
+     width: 100%;
+     height: 600px;
+     display: flex;
+     position: relative; 
+     align-items: center;
+     justify-content: center; 
+     }
+ 
+ 
+       .wrapper {
+         display: flex;
+         flex-direction: column;
+         height:140px;
+         width:20%;
+         margin-left: 80%;
+         justify-content: space-between; 
+           
+       }
 
+       .text {
+        flex:1;
+        font-size: 19px;
+        color: white;
+        align-items: flex-start;  
+        font-weight: 300;
+        line-height: 1,5;
+        text-align: center;
+        word-spacing: 19px;
+        
+    }
+       
+.readmore {
+  flex:1;
+  align-self: flex-start;
+  width: 50%;
+  font-size: 13px;
+  
+  display: flex;
+  height:20px
+
+     }
+
+     .readmore a{
+      padding: 15px;
+      
+      text-decoration: none;
+      color: rgb(223, 223, 219);
+      }
+    }
+
+    @media screen and (max-width: 897px) {
+      .banner{
+     width: 100%;
+     display: flex;
+     position: relative; 
+     align-items: center;
+     justify-content: center; 
+     }
+ 
+       .wrapper {
+         display: none;
+           
+       }
+     }
+     
