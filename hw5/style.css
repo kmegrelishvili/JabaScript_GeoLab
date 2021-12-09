@@ -1,0 +1,16 @@
+button {
+	color: #fff;
+    width: 150px;px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #60a3bc;
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	
+}
+
+.deleteentries {
+display: none;
+}
