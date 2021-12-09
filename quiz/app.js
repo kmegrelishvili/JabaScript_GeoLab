@@ -51,19 +51,31 @@ const arr2 = [{
 
 
 let btn1 = document.querySelector('.addentries')
+let btn2 = document.querySelector('.addentries2')
 
 
 function myFunctionAdd(list1, list2) {
     list = [...list1, ...list2]
     list.forEach((element) => {
+        console.log(element)
+        var li = document.createElement('li');
+        li.setAttribute('class', 'item');
+        li.textContent = Object.values(element);
+        document.getElementById('list').appendChild(li);
+    })
+}
+
+
+function myFunctionAdd2(list1, list2) {
+    list = [...list1, ...list2]
+    list.forEach((element) => {
+        console.log(element)
         var li = document.createElement('li');
         li.setAttribute('class', 'item');
         li.textContent = element.city;
         document.getElementById('list').appendChild(li);
     })
 }
-
-
 
 
 
