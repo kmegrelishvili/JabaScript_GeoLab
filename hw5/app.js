@@ -1,67 +1,36 @@
-const arr = [
-    {
-        street: "153 Moen Villages",
-        streetName: "Alycia Turnpike",
-        buildingNumber: "20787",
-        city: "East Breanamouth",
-        zipcode: "18481",
 
-    },
-    {
-        street: "74767 Antonio Mission",
-        streetName: "Angela Cove",
-        buildingNumber: "637",
-        city: "Aldaview",
-        zipcode: "57550",
+let btn = document.querySelector('.btn')
+let form = document.querySelector('form')
+let input = document.querySelector('.input') // sadac user wers da value-s daxmarebit mnishvnelobas wamovogebt
+let ul = document.getElementById('list')
 
-    },
-    {
-        street: "471 Feest Summit",
-        streetName: "Kulas Isle",
-        buildingNumber: "3790",
-        city: "East Zolaburgh",
-        zipcode: "17098-5594",
+form.addEventListener('submit', (event) => { //eventlistener edeba mtlianad formas
+    event.preventDefault(); // prevent redirection from action attribute in form
 
-    },
-    {
-        street: "5709 Harvey Mills Suite 016",
-        streetName: "Cronin Harbors",
-        buildingNumber: "9829",
-        city: "Rodriguezland",
-        zipcode: "03438-9221",
-
-    }
-];
-
-const arr2 = [{
-    street: "5709 Harvey Mills Suite 016",
-    streetName: "Cronin Harbors",
-    buildingNumber: "9829",
-    city: "ბათუმი",
-    zipcode: "03438-9221",
-
-},
-{
-    street: "5709 Harvey Mills Suite 016",
-    streetName: "Cronin Harbors",
-    buildingNumber: "9829",
-    city: "თბილისი",
-    zipcode: "03438-9221"
-}]
-
-
-let btn1 = document.querySelector('.addentries')
-
-
-function myFunctionAdd(list1, list2) {
-    list = [...list1, ...list2]
-    list.forEach((element) => {
-        var li = document.createElement('li');
+    if (input.value.trim()) { //შემოწმება რომ ცარიელი ტექსტი არ ჩაემატოს ლისთში 
+        const li = document.createElement('li');
         li.setAttribute('class', 'item');
-        li.textContent = element.city;
-        document.getElementById('list').appendChild(li);
-    })
-}
+
+        const btnDelete = document.createElement('button')
+        btnDelete.setAttribute('class', 'delete');
+        btnDelete.textContent = "X";
+
+        const span = document.createElement('span');
+        span.setAttribute('class', 'span');
+        btnDelete.addEventListener('click', (event) => {
+            const parent = btnDelete.parentNode;
+            parent.remove();
+        })
+        span.textContent = input.value;
+
+        li.appendChild(span)
+        li.appendChild(btnDelete)
+        ul.appendChild(li);
+        input.value = ""; // უჯრის გასუფთავება
+        input.focus(); // მაუსის ფოკუსი
+    }
+});
+
 
 
 

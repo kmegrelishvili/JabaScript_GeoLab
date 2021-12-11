@@ -1,0 +1,52 @@
+.footer {
+    margin-top: 20px;
+    padding:50px 0;
+    background-color:#282d32;
+  
+  }
+  
+  
+  .footer .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-container {
+    text-align:center;
+    background-color: rgb(168, 216, 234);
+    background-size: cover;
+    padding-top: 20px;
+    height: 80px; 
+  }
+  
+
+  .footer-container img {
+    width:40px;
+    height: 40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;   
+    margin:0 8px;
+    opacity:1;
+  }
+  
+
+  .footer .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:16px;
+    margin-bottom:0;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-container img:hover {
+    transform: scale(1.5); 
+  }
+
+  @media screen and (max-width: 800px) {
+    footer {
+        width: 100%;
+    }
+  }
