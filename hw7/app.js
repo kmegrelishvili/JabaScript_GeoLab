@@ -41,9 +41,14 @@ test1('https://fakerapi.it/api/v1/books?_quantity=10').then(item => {
 axios.get('https://reqres.in/api/users?page=2').then(item => {
     let title1 = document.querySelector('.ul3')
     title1.textContent = "Getting email Data with try await method "
-    item.data.forEach(element => {
+    console.log(item)
+    console.log("this is", item.data)
+    item.data.data.forEach(element => {
         let li = document.createElement('li')
         ul3.appendChild(li)
         li.textContent = element.email
     })
 })
+
+
+console.log('givi')
