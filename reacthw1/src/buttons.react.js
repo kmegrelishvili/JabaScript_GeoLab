@@ -3,9 +3,7 @@ import {styles} from './styles'
 
 
 function Buttons() {
-    const [value, setValue] =useState(5);
-    const [savedValue, setli] =useState([])
-     console.log(savedValue)
+    const [value, setValue] =useState(5);    
 
  return (
      <div style={styles.Div}>
