@@ -1,0 +1,46 @@
+.btn {
+    width: 260px;
+    height:60px;
+    background-color: #5863F8;
+    border-color: #EBEBEB;
+    border-width: 1px;
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 73.25px;
+    font-family: Poppins;
+    margin-left: 5px;
+    box-sizing:border-bo
+}
+
+form{
+  
+    display:block
+}
+.logo {
+    width: 24px;
+    height:20px;
+    margin-left: 4px;
+  
+}
+
+.inputbox{
+    background-color: #FFFFFF;
+    text-align: left;
+    color: #9c9a9a;
+    height: 56px;
+   
+}
+
+.wrapper {
+    display:block;
+    margin-top: 3px;
+    color:#5863F8;
+ 
+}
+
+label{
+    margin-left: 3px;
+  
+}
