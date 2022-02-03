@@ -46,3 +46,16 @@ height: 150px;
     margin-left: 5px;
     border-radius: 6px;
 }
+
+.counterInput {
+
+    background-color: #FFFFFF;
+    text-align: left;
+    color: #9c9a9a;
+    height: 60px;
+    width:60px;
+    border-radius: 6px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+
+}

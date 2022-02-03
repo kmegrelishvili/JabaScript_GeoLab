@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
     <Form formStyle="inputbox"></Form>
-    <Counter initialValue={5} increment={1}></Counter>
-    <Counter increment={0}></Counter>
-    <Counter initialValue={100}></Counter>
+    <Counter initialValue={5} increment={1} newStyle="counterInput"></Counter>
+    <Counter increment={0} newStyle="counterInput"></Counter>
+    <Counter initialValue={100} newStyle="counterInput"></Counter>
     </div>
   );
 }
